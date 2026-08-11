@@ -1,0 +1,26 @@
+import { StyleSheet, Text, View } from 'react-native';
+
+import { Card } from 'react-native-paper';
+
+import AssetExample from './components/AssetExample';
+
+export default function App() {
+  return (
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+
+      <View>
+       <Image source={{uri: 'https://yt3.googleusercontent.com/m3GyXdo8k6fdy_pZ_SV-hcuW69qdzCST0R-9_RGnzciySdvUhlj4O753HxibVU1SuszgPZg-Tw=s900-c-k-c0x00ffffff-no-rj'}}
+       style={{width: 120, height: 120}} />
+      </View>
+
+      <Text style={{fontSize: 30, fontWeight: 'bold'}}> YOUTUBE </Text>
+
+      <View> 
+
+       <Text style={{fontWeight: 10, fontSize: 15}}> Aplicativo para ver video e musicas </Text>
+
+      </View>
+
+    </View>
+  );
+}
